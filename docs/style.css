@@ -1,0 +1,164 @@
+body{
+    text-align: center;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(67,117,144,255);
+    margin: 0px;
+}
+
+.check{
+    margin-left: auto;
+}
+
+#todo{
+    width: 500px;
+    height: 20px;
+    font-size: 1.5em;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    border: 2px solid;
+}
+
+#submit{
+    width: 150px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+#submit:hover{
+    background-color: rgb(223, 223, 223);
+}
+
+#submit:active{
+    background-color: rgb(185, 185, 185);
+}
+
+#daily{
+    width: 150px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+#daily:hover{
+    background-color: rgb(223, 223, 223);
+}
+
+#daily:active{
+    background-color: rgb(185, 185, 185);
+}
+
+.Delete{
+    background-color: red;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.Delete:hover{
+    background-color: rgb(230, 0, 0);
+}
+
+.Delete:active{
+    background-color: rgb(173, 0, 0);
+}
+
+#result{
+    list-style-type: none;
+    padding: 0;
+    height: auto;
+}
+
+
+#result li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 10px;
+    min-width: 500px;
+    max-width: 700px;
+    background-color: rgba(208,243,236,255);
+    font-size: 1.3em;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border: 1px solid;
+}
+
+#result li div{
+    margin-left: 10px;
+    height: fit-content;
+}
+
+
+#dailyTasks{
+    list-style-type: none;
+    padding: 0;
+    height: auto;
+}
+
+
+#dailyTasks li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 10px;
+    min-width: 500px;
+    max-width: 700px;
+    background-color: rgba(208,243,236,255);
+    font-size: 1.3em;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border: 1px solid;
+}
+
+#dailyTasks li div{
+    margin-left: 10px;
+    height: fit-content;
+}
+
+
+#clear{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 150px;
+    height: 40px;
+    font-size: 1.3em;
+    background-color: red;
+}   
+
+#clear:hover{
+    background-color: rgb(230, 0, 0);
+}
+
+#clear:active{
+    background-color: rgb(173, 0, 0);
+}
+
+button{
+    font-family: inherit;
+}
+
+
+.divs{   
+    height: fit-content;
+    width: 900px;
+    min-height: 200px; 
+    padding-top: 5px; 
+    background-color: rgb(107, 179, 193); 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid;
+}
