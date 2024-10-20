@@ -84,14 +84,14 @@ body{
     max-width: 700px;
     background-color: rgba(208,243,236,255);
     font-size: 1.3em;
-    overflow-x: auto;
-    overflow-y: hidden;
     border: 1px solid;
 }
 
 #result li div{
     margin-left: 10px;
-    height: fit-content;
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 50px;
 }
 
 
@@ -114,14 +114,15 @@ body{
     max-width: 700px;
     background-color: rgba(208,243,236,255);
     font-size: 1.3em;
-    overflow-x: auto;
-    overflow-y: hidden;
     border: 1px solid;
 }
 
+    
 #dailyTasks li div{
     margin-left: 10px;
-    height: fit-content;
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 50px;
 }
 
 
