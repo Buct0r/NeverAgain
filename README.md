@@ -3,13 +3,13 @@
 
 ![logo_never_again](./docs/logo_never_again.png)
 
-## What is never again?
+## What is Never Again?
 Never Again is the ultimate to do App and the only one you will ever need. It is completely open source and if you don't like something about the app, you can always download the source code and modify it yourself.
 
 ![main page](./docs/whole_page.png)
 
 ## How does it work?
-Never Again works by saving all of you tasks in 2 different lists. Just type your task in the input box:
+Never Again works by saving all of your tasks in 2 different lists. Just type your task in the input box:
 
 ![input](./docs/input.png)
 
